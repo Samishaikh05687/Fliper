@@ -1,0 +1,97 @@
+/* Container styling for centering content */
+.client-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    max-height: 220vh; /* Minimum height to cover full viewport */
+  }
+  
+  /* Styling for the heading */
+  .client-management-container h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Styling for input fields and textarea */
+  .client-management-container input,
+  .client-management-container textarea {
+    width: 100%;
+    max-width: 400px; /* Limit the width of inputs */
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .client-management-container input:focus,
+  .client-management-container textarea:focus {
+    border-color: #1abc9c;
+    box-shadow: 0 0 8px rgba(26, 188, 156, 0.2);
+    outline: none;
+  }
+  
+  /* Styling for the button */
+  .client-management-container button {
+    padding: 12px 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px 0;
+  }
+  
+  .client-management-container button:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+  }
+  
+  /* Styling for the client list */
+  .client-management-container ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px; /* Limit the width of the list */
+    margin-top: 20px;
+  }
+  
+  .client-management-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-management-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 15px;
+  }
+  
+  .client-management-container h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin: 0;
+  }
+  
+  .client-management-container p {
+    margin: 0;
+    color: #555;
+  }
+  

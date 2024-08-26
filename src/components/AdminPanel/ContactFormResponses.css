@@ -1,0 +1,51 @@
+/* Container styling for centering content */
+.contact-form-responses-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    min-height: 100vh; /* Minimum height to cover full viewport */
+  }
+  
+  /* Styling for the heading */
+  .contact-form-responses-container h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Styling for the table */
+  .contact-form-responses-container table {
+    width: 100%;
+    max-width: 800px; /* Limit the width of the table */
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    border-radius: 8px;
+  }
+  
+  .contact-form-responses-container th,
+  .contact-form-responses-container td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .contact-form-responses-container th {
+    background-color: #1abc9c;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .contact-form-responses-container tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row color for readability */
+  }
+  
+  .contact-form-responses-container tr:hover {
+    background-color: #e0f7f9; /* Highlight row on hover */
+  }
+  
